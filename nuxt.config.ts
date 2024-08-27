@@ -10,7 +10,12 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   ssr: false,
   nitro: {
-    preset: 'vercel'
+    preset: 'vercel',
+    vercel: {
+      functions: {
+        maxDuration: 90
+      }
+    }
   },
   sourcemap: {
     server: false,
