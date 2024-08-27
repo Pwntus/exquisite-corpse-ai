@@ -1,0 +1,31 @@
+{
+  "name": "exquisite-corpse-ai",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^2.18.3",
+    "@pinia/nuxt": "^0.5.2",
+    "@supabase/supabase-js": "^2.45.2",
+    "@vueuse/core": "^10.11.0",
+    "@vueuse/nuxt": "^10.11.0",
+    "add": "^2.0.6",
+    "nuxt": "^3.12.4",
+    "replicate": "^0.32.0",
+    "uuid": "^10.0.0",
+    "vue": "latest",
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "pug": "^3.0.3",
+    "pug-plain-loader": "^1.1.0",
+    "stylus": "^0.63.0",
+    "stylus-loader": "^8.1.0"
+  }
+}
