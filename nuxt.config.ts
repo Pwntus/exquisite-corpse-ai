@@ -99,7 +99,6 @@ export default defineNuxtConfig({
         }
       ],
       script: [
-        /*
         {
           async: true,
           src: `https://www.googletagmanager.com/gtag/js?id=${process.env.GTAG_ID}`
@@ -111,7 +110,6 @@ export default defineNuxtConfig({
             gtag('js', new Date());
             gtag('config', '${process.env.GTAG_ID}');`
         }
-        */
       ],
       bodyAttrs: {
         class: 'antialiased h-full min-h-screen relative'
